@@ -1,0 +1,16 @@
+{
+  "name": "cesium_cc",
+  "version": "1.0.0",
+  "description": "cesium 常用坐标转换",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cesium",
+    "coordinate",
+    "transformation"
+  ],
+  "author": "duhuazhu",
+  "license": "ISC"
+}
