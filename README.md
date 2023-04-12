@@ -2,6 +2,17 @@
 ## wgs84 ：经纬度坐标  
 ## cartesian3 ：笛卡尔坐标
 ```js
+    //npm i cesium_cc
+ /*   import { 
+    WGS84ToCartesian3,
+    WGS84ToCartographic,
+    cartesian2ToCartesian3,
+    cartesian3ToCartographic,
+    cartesian3ToWGS84,
+    cartesianArrayToWGS84Array,
+    movementToWGS84,
+    movementToCartesian3}
+    form ' cesium_cc'*/
     //84坐标转笛卡尔坐标系
     WGS84ToCartesian3(wgs84),
     //84坐标转弧度坐标
