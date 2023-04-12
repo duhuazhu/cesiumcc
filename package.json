@@ -1,6 +1,6 @@
 {
   "name": "cesium_cc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cesium 常用坐标转换",
   "main": "src/index.js",
   "scripts": {
