@@ -1,9 +1,10 @@
 ## cesium 中坐标转换
-## wgs84 ：经纬度坐标  
-## cartesian3 ：笛卡尔坐标
+### wgs84 ：经纬度坐标  
+### cartesian3 ：笛卡尔坐标
+###  下载 npm i cesium_cc
+### 按需引入
 ```js
-    //npm i cesium_cc
- /*   import { 
+    import { 
     WGS84ToCartesian3,
     WGS84ToCartographic,
     cartesian2ToCartesian3,
@@ -12,7 +13,10 @@
     cartesianArrayToWGS84Array,
     movementToWGS84,
     movementToCartesian3}
-    form ' cesium_cc'*/
+    from ' cesium_cc'
+```
+### 方法
+```js
     //84坐标转笛卡尔坐标系
     WGS84ToCartesian3(wgs84),
     //84坐标转弧度坐标
